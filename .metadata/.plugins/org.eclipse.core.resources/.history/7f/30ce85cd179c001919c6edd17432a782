@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	^I enter (.*?) and (.*?) on login page$
+}
+

@@ -1,0 +1,25 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+	WebDriver dr;
+	
+	public HomePage(WebDriver dr)
+	{
+		this.dr=dr;
+		
+	}
+	
+
+	By username=By.name("username");
+	By password=By.name("password");
+	By login=By.name("logine");
+	By register=By.linkText("Register");
+	
+	public void lofin(String username, String password)
+	{
+		
+	}
+}

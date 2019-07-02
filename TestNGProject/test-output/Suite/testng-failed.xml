@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Smoke Test">
+    <classes>
+      <class name="basicAnnotations.TestNGClass2"/>
+      <class name="basicAnnotations.TestNGClass3"/>
+    </classes>
+  </test> <!-- Smoke Test -->
+  <test name="Saniy Test">
+    <classes>
+      <class name="basicAnnotations.TestNGClass2"/>
+      <class name="basicAnnotations.TestNGClass3"/>
+    </classes>
+  </test> <!-- Saniy Test -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,23 @@
+package testScript;
+
+import static org.testng.Assert.assertTrue;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import libraries.ApplicationLibrary;
+
+@Test
+public class TC_login {
+	public void script()
+	{
+		
+		
+		ApplicationLibrary lib= new ApplicationLibrary();
+		
+		//Launch browser
+		WebDriver dr=lib.lunchBrowser();
+		assertTrue(dr!=null);
+		
+	}
+
+}

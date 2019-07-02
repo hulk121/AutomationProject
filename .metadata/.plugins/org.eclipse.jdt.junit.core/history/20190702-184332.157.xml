@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CucumberProject" tests="9" started="9" failures="0" errors="0" ignored="9">
+  <testsuite name="runner.Runner" time="0.006">
+    <testsuite name="Feature: As a user want to login  in the applcation" time="0.0">
+      <testsuite name="Scenario: To test login scenario" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Given Application is up and running" classname="Scenario: To test login scenario" time="0.0" ignored="true"/>
+        <testcase name="When I enter valid credential" classname="Scenario: To test login scenario" time="0.0" ignored="true"/>
+        <testcase name="Then I should bo login sucscessfully" classname="Scenario: To test login scenario" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: I want to test login feature with multiple data sets" time="0.003">
+      <testsuite name="Scenario Outline: to test log in with invalid credintials" time="0.003">
+        <testsuite name="Examples:" time="0.003">
+          <testsuite name="| mercury | mercury |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given Application is up and running" classname="| mercury | mercury |" time="0.0" ignored="true"/>
+            <testcase name="When I enter mercury and mercury on login page" classname="| mercury | mercury |" time="0.0" ignored="true"/>
+            <testcase name="Then Error message should display" classname="| mercury | mercury |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| mercury2 | mercury2 |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given Application is up and running" classname="| mercury2 | mercury2 |" time="0.0" ignored="true"/>
+            <testcase name="When I enter mercury2 and mercury2 on login page" classname="| mercury2 | mercury2 |" time="0.0" ignored="true"/>
+            <testcase name="Then Error message should display" classname="| mercury2 | mercury2 |" time="0.0" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

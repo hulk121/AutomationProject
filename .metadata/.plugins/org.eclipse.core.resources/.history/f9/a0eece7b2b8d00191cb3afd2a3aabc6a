@@ -1,0 +1,32 @@
+package basicAnnotations;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+
+public class TestNGClass3 {
+	
+	@Test
+	public void test3()
+	{
+		System.out.println("Test 3");
+	}
+	
+	
+	@BeforeTest
+	public void beforeTest()
+	{
+		System.out.println("Before Test ");
+	}
+	
+	
+
+	@AfterTest
+	public void AfterTest()
+	{
+		System.out.println("After Test ");
+	}
+
+}
